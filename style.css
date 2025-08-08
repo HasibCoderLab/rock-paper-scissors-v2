@@ -1,4 +1,4 @@
-/* বডি ডিজাইন */
+/* body  */
 body {
     font-family: 'Poppins', sans-serif;
     text-align: center;
@@ -8,7 +8,7 @@ body {
     color: white;
 }
 
-/* কন্টেইনার */
+/* container */
 .container {
     max-width: 600px;
     margin: auto;
@@ -20,14 +20,14 @@ body {
     animation: fadeIn 1.5s ease-in-out;
 }
 
-/* শিরোনাম */
+/* Title */
 h1 {
     font-size: 2.5rem;
     color: #fff;
     text-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
 }
 
-/* বাটনের ডিজাইন */
+/* Btn  Design */
 .game button {
     padding: 15px 25px;
     margin: 10px;
@@ -46,7 +46,7 @@ h1 {
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
 }
 
-/* রেজাল্ট অংশ */
+/* Result part */
 #result {
     margin-top: 30px;
     font-size: 1.3rem;
@@ -75,7 +75,7 @@ h1 {
     font-size: 1.5rem;
 }
 
-/* এনিমেশন */
+/* Animation */
 @keyframes fadeIn {
     from {
         opacity: 0;

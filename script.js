@@ -33,7 +33,7 @@ function playGame(userChoice) {
     computerChoiceDisplay.textContent = computerChoice;
     gameResultDisplay.textContent = result;
 
-    // রেজাল্টে ছোট্ট অ্যানিমেশন
+    // Small animation in the result
     gameResultDisplay.style.animation = "bounceIn 0.6s ease";
     setTimeout(() => {
         gameResultDisplay.style.animation = "";
